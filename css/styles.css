@@ -1,0 +1,28 @@
+.text-justify  { text-align: justify !important; }
+
+.banner {
+    background: url('../images/Crazy-No-Bake-Cookies1.jpg') no-repeat fixed;
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+    height: 40vh;
+    background-size: cover
+  }
+
+  /*.card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }*/
+
+  table {
+    margin-left:auto;
+    margin-right:auto;
+}
+th, td {
+    border-width:3px;
+    border-style:groove;
+    padding: 5px;
+    text-align: center;
+}
+
+  
