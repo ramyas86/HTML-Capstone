@@ -21,8 +21,9 @@
   }*/
 
 .image_size {
-  height: auto;
-  width: auto;
+    width: 50%; /* Set the desired width */
+    height: 50%; /* Maintain aspect ratio */
+    object-fit: contain;
 }
 
 table {
@@ -47,4 +48,13 @@ body {
 
 .spacing {
   padding: 10px;
+
+}
+
+a[href^='mailto']::before {
+  content: '📧 ';
+}
+
+a[href^='tel']::before {
+  content: '📞 ';
 }
